@@ -58,8 +58,7 @@ public class EmployeeController {
 	/**
 	 * Update - Update an existing employee
 	 * @param id - The id of the employee to update
-	 * @param employee - The employee object updated
-	 * @return
+	 * @return employee - The employee object updated
 	 */
 	@PutMapping("/employee/{id}")
 	public Employee updateEmployee(@PathVariable("id") final Long id, @RequestBody Employee employee) {
